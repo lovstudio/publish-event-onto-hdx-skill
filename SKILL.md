@@ -1,10 +1,9 @@
 ---
 name: lov-publish-event-onto-hdx
 description: >
-  诊断并修改活动行已发布活动：读取分类与标签现状、核查分类页可见性与排名、替换活动详情
-  正文配图，并在任何后台保存后守住「分类被清空」这一平台级陷阱。Trigger: 活动行分类找不到、
-  活动行分类没了、活动行标签、活动行排名、活动行曝光、活动行换海报、活动行替换详情图、
-  hdx event visibility, hdx category not showing, hdx category reset。
+  诊断并修改活动行已发布活动：核查分类页可见性与排名、替换详情正文配图，并守住
+  后台保存会清空分类这一平台陷阱。Trigger: 活动行分类找不到、活动行分类没了、
+  活动行排名、活动行曝光、活动行换海报、hdx category not showing, hdx category reset。
 license: MIT
 compatibility: >
   ego-browser（继承用户已登录的活动行会话）；Python 3.8+；无需额外凭据。
