@@ -11,7 +11,7 @@ depends_on:
   - lov-branding-consistency
 metadata:
   author: markshawn2020
-  version: "0.4.0"
+  version: "0.4.1"
   card_standard: lovstudio/skill-card/v1
   content_class: microcopy
   tags:
@@ -21,7 +21,7 @@ metadata:
     - china-platform
 ---
 
-# lov-publish-event-onto-hdx
+# 活动行诊断 · Huodongxing Diagnostics
 
 帮助在活动行（huodongxing.com）完成活动的分类设置、标签优化和曝光排名核查。
 
